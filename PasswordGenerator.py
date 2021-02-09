@@ -30,5 +30,4 @@ while manage():
 		p = any([ x in specials for x in word ])
 		if (s < 3 and all([c,l,n,p])):
 			break
-	print(s,i)
 	print(word)
