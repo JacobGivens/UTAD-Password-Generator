@@ -1,18 +1,20 @@
 # UTAD Password Generator
 
-While I don't feel like any of the official licenses meet the criteria for how I want my project to be presented, I felt the need to express my views on the use of my content.
+Password Generator to create a random password that falls in line with University of Toledo requirements. The program was written because I use a password manager frequently. I'm on the security concious side, so I create a new password for each website, but I do not have the patience to remember most by a phrase or words. Since the University restricts some characters my Password Maanger may propose (@, #, &, \`), figured it would be easier to make a password generator opposed to sifting through to find the bad characters.
 
-- The materials downloaded from this repository are at your discretion.
-- I take no legal liability if materials from this repository damage or affect your...
-  - Education or professional position.
-    - I will not be responsible if your school or boss catches you using my code.
-  - Financial or legal position.
-    - If the above happens, you're on your own.
-  - Personal property or personal data.
-- You can use the materials in this repository for the following purposes.
-  - Educational learning or advancement practices. However, I do not encourage the submission or proclamation of the materials within this repository to be your own. In other words, I do not support plagiarism. At least understand the material which your would be submitting and make your own variation.
-  - Private, non-commercial use, learning, and advancement practices with attribution to the author.
-- You can **not** use the materials in this repository for the following practices.
-  - Commercial redistribution or sale, regardless of the amount of modification placed into the project.
-    - Quite frankly, this is a jerk move as this material is public and free to modify anyway.
-    - I am not going to claim any code or program as my property, just that which closely resembles my source code and contents of the source.
+## Password Generation Rules
+- It MUST be between 8 and 15 characters in length
+- It MUST contain at least 1 character from each of the following lists:
+  - Uppercase Letters: A-Z
+  - Lowercase Letters: a-z
+  - Numbers: 0-9
+  - Allowed Special Characters ! " $ % , ( ) * + - . / ; : = > ? \[ \ ] ^ _ { | } ~
+    - These special characters ARE NOT ALLOWED: & # @ < blank or space
+- It CANNOT be all numbers
+- ~~It CANNOT be the same as the previous 10 passwords~~ 
+  - *Doesn't matter, random generation, very unlikely repetition*
+- It CANNOT contain 3 or more repetitions of the same character
+- ~~It IS case sensitive i.e. "TOM" does NOT equal "tom"~~
+  - *Doesn't matter, more of user note. Script or program checks if uppercase and lowercase present*
+- ~~It CANNOT contain your user name or your first, last, or middle name~~
+  - *Doesn't matter, random generation. Unless name is "Al", it's not gonna happen*
