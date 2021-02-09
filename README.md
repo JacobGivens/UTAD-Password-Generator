@@ -10,7 +10,8 @@ Password Generator to create a random password that falls in line with Universit
   - Numbers: 0-9
   - Allowed Special Characters ! " $ % , ( ) * + - . / ; : = > ? \[ \ ] ^ _ { | } ~
     - These special characters ARE NOT ALLOWED: & # @ < blank or space
-- It CANNOT be all numbers
+- ~~It CANNOT be all numbers~~
+  - Not possible if it must contain a character from uppercase, lowercase, and special.
 - ~~It CANNOT be the same as the previous 10 passwords~~ 
   - *Doesn't matter, random generation, very unlikely repetition*
 - It CANNOT contain 3 or more repetitions of the same character
